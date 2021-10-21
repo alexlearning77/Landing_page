@@ -16,7 +16,7 @@ header {
     width: auto;
     margin: 20px;
 }
-.menu {
+.menu a {
     margin: auto;
     color: #e5e7eb;
     text-decoration: none;
