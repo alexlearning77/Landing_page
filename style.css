@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    background-color: #1f2937;
+}
+.logo_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_menu img {
+    height: 50px;
+    width: auto;
+    margin: 20px;
+}
+.menu {
+    margin: auto;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.hero_img h3 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #f9faf8;
+}
