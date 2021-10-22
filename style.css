@@ -5,57 +5,57 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 /* Header styling */
-header {
-    background-color: #1f2937;
-}
-.logo_menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 10%;
-}
-.logo_menu img {
-    height: 50px;
-    width: auto;
-}
-.menu a {
-    margin: auto;
-    color: #e5e7eb;
-    text-decoration: none;
-    font-size: 18px;
-}
-.hero_img {
-    display: flex;
-    align-items: center;
-    padding: 10%;
-}
-.leftie {
-    flex: 1 1 0%;
-    padding-right: 20px;
-}
-.leftie p {
-    padding: 10px 0 10px 0;
-    color: #e5e7eb;
-    font-size: 18px;
-}
-.leftie button {
-    background-color: #3882f6;
-    color: #e5e7eb;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 30px;
-}
-.hero_img img {
-    flex: 1 1 0%;
-    height: 30vh;
-    object-fit: cover;
-}
-.hero_img h3 {
-    font-weight: 700;
-    font-size: 48px;
-    color: #f9faf8;
-}
+    header {
+        background-color: #1f2937;
+    }
+    .logo_menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 10%;
+    }
+    .logo_menu img {
+        height: 50px;
+        width: auto;
+    }
+    .menu a {
+        margin: auto;
+        color: #e5e7eb;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .hero_img {
+        display: flex;
+        align-items: center;
+        padding: 10%;
+    }
+    .leftie {
+        flex: 1 1 0%;
+        padding-right: 20px;
+    }
+    .leftie p {
+        padding: 10px 0 10px 0;
+        color: #e5e7eb;
+        font-size: 18px;
+    }
+    .leftie button {
+        background-color: #3882f6;
+        color: #e5e7eb;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 30px;
+    }
+    .hero_img img {
+        flex: 1 1 0%;
+        height: 30vh;
+        object-fit: cover;
+    }
+    .hero_img h3 {
+        font-weight: 700;
+        font-size: 48px;
+        color: #f9faf8;
+    }
 /* Information article styling */
     .information {
         padding: 5% 20%;
@@ -76,8 +76,8 @@ header {
         margin: 40px 0;
     }
     .information img {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         border: 2px solid #3882f6;
         border-radius: 10px;
         margin-bottom: 10px;
@@ -91,6 +91,21 @@ header {
         width: 150px;
         color: #1f2937;
     }
+/* Quote section styling*/
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 13%;
+}
+.quote h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px 0 0 auto;
+    text-align: end;
+}
 /* Footer styling*/
 footer {
     background-color: #1f2937;
