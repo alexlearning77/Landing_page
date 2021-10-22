@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+/* Header styling */
 header {
     background-color: #1f2937;
 }
@@ -11,7 +12,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 10%;
 }
 .logo_menu img {
     height: 50px;
@@ -26,7 +27,7 @@ header {
 .hero_img {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 10%;
 }
 .leftie {
     flex: 1 1 0%;
@@ -43,16 +44,39 @@ header {
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 5px 30px;
 }
 .hero_img img {
-    height: 250px;
+    flex: 1 1 0%;
+    height: 30vh;
+    object-fit: cover;
 }
 .hero_img h3 {
     font-weight: 700;
     font-size: 48px;
     color: #f9faf8;
 }
+/* Information article styling */
+    .information {
+        padding: 10% 20%;
+    }
+    .information h4 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #1f2937;
+        text-align: center;
+    }
+    .information article {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #3882f6;
+        border-radius: 5px;
+    }
+    .information_article {
+        display: flex;
+
+    }
+/* Footer styling*/
 footer {
     background-color: #1f2937;
     color: #f9faf8;
