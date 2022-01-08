@@ -7,6 +7,8 @@
 /* Header styling */
     header {
         background-color: #1f2937;
+        position: absolute;
+        top: 0;
     }
     .logo_menu {
         display: flex;
